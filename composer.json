@@ -1,0 +1,26 @@
+{
+    "name": "onspli/composer-inject-repositories",
+    "description": "Plugin loads repository definitions from external files and injects them to composer.json.",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Onspli\\ComposerInjectRepositories\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ondřej Šplíchal",
+            "email": "ondrej.splichal@gmail.com"
+        }
+    ],
+    "extra": {
+        "class": "Onspli\\ComposerInjectRepositories\\Plugin"
+    },
+    "require": {
+        "composer-plugin-api": "^2.0"
+    },
+    "require-dev": {
+        "composer/composer": "^2.0"
+    }
+}
